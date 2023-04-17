@@ -1,0 +1,40 @@
+<!-- In popup.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Phishing Detector</title>
+    <style>
+        /* Add custom CSS styles for the popup window */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+        }
+
+        h1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        #resultDiv {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .warning {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Phishing Detector</h1>
+    <label for="urlInput">Enter URL:</label>
+    <input type="text" id="urlInput" placeholder="https://example.com">
+    <button id="checkButton">Check</button>
+    <div id="resultDiv"></div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
